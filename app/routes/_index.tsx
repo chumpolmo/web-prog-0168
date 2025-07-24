@@ -2,8 +2,8 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Ajkhaeg Remix App" },
+    { name: "description", content: "Welcome to Aj.Kaheg Remix App!" },
   ];
 };
 
@@ -13,24 +13,19 @@ export default function Index() {
       <div className="flex flex-col items-center gap-16">
         <header className="flex flex-col items-center gap-9">
           <h1 className="leading text-2xl font-bold text-gray-800 dark:text-gray-100">
-            Welcome to <span className="sr-only">Remix</span>
+            Welcome to Aj.Khaeg <span className="sr-only">Remix</span>
           </h1>
-          <div className="h-[144px] w-[434px]">
+          <div>
             <img
-              src="/logo-light.png"
-              alt="Remix"
-              className="block w-full dark:hidden"
-            />
-            <img
-              src="/logo-dark.png"
-              alt="Remix"
-              className="hidden w-full dark:block"
+              src="/images/myprofile1.jpg"
+              alt="Beritokai"
+              className="rounded-full w-24"
             />
           </div>
         </header>
         <nav className="flex flex-col items-center justify-center gap-4 rounded-3xl border border-gray-200 p-6 dark:border-gray-700">
           <p className="leading-6 text-gray-700 dark:text-gray-200">
-            What&apos;s next?
+            Laboratory:
           </p>
           <ul>
             {resources.map(({ href, text, icon }) => (
@@ -55,29 +50,17 @@ export default function Index() {
 
 const resources = [
   {
-    href: "https://remix.run/start/quickstart",
-    text: "Quick Start (5 min)",
+    href: "http://localhost:5173/",
+    text: "Lab01 (08/07/2568)",
     icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        className="stroke-gray-600 group-hover:stroke-current dark:stroke-gray-300"
-      >
-        <path
-          d="M8.51851 12.0741L7.92592 18L15.6296 9.7037L11.4815 7.33333L12.0741 2L4.37036 10.2963L8.51851 12.0741Z"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 0 1-1.161.886l-.143.048a1.107 1.107 0 0 0-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 0 1-1.652.928l-.679-.906a1.125 1.125 0 0 0-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 0 0-8.862 12.872M12.75 3.031a9 9 0 0 1 6.69 14.036m0 0-.177-.529A2.25 2.25 0 0 0 17.128 15H16.5l-.324-.324a1.453 1.453 0 0 0-2.328.377l-.036.073a1.586 1.586 0 0 1-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 0 1-5.276 3.67m0 0a9 9 0 0 1-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25" />
       </svg>
     ),
   },
   {
-    href: "https://remix.run/start/tutorial",
-    text: "Tutorial (30 min)",
+    href: "http://localhost:5173/lab02",
+    text: "Lab02 (17/07/2568)",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -97,8 +80,8 @@ const resources = [
     ),
   },
   {
-    href: "https://remix.run/docs",
-    text: "Remix Docs",
+    href: "http://localhost:5173/lab03",
+    text: "Lab03 (24/07/2568)",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
