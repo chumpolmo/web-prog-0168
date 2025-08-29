@@ -1,6 +1,7 @@
 // Filename: lab03.tsx
 import Profile from "./components/Profile";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function MyProfile(){
    return (
@@ -29,6 +30,7 @@ export default function MyProfile(){
      <div className="ps-5 pe-5 pt-1 pb-1 bg-amber-300 rounded w-16 flex justify-center m-3">
        <a href="/">Back</a>
      </div>
+     <Footer title="© 2025 Beritokai. All Rights Reserved." />
    </>
    );
 }

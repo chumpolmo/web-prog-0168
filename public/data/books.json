@@ -1,0 +1,20 @@
+[
+  {
+    "bookId": 1,
+    "bookTitle": "Web Programming",
+    "bookDesc": "การเขียนโปรแกรมเว็บด้วย React Library",
+    "bookPrice": 299,
+    "bookAuthor": "Beritokai",
+    "bookCategory": "Programming",
+    "bookCover": "/images/bookdefault.png"
+  },
+  {
+    "bookId": 2,
+    "bookTitle": "Web Technology",
+    "bookDesc": "การสร้างเว็บไซต์ด้วย HTML, CSS, JavaScript เบื้องต้น",
+    "bookPrice": 199,
+    "bookAuthor": "Beritokai",
+    "bookCategory": "Technology",
+    "bookCover": "/images/bookdefault.png"
+  }
+]
